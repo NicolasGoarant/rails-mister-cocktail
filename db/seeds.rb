@@ -20,3 +20,5 @@ ti_punch = Cocktail.create!(name: 'Ti Punch')
 Dose.create!(cocktail: ti_punch, ingredient: sugar, description: '2 spoons')
 Dose.create!(cocktail: ti_punch, ingredient: lime, description: '2 slices')
 Dose.create!(cocktail: ti_punch, ingredient: rum, description: '20 cl')
+
+

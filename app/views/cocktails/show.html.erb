@@ -6,5 +6,7 @@
   <% end %>
 </ul>
 
+<%= cl_image_tag @article.photo, height: 300, width: 400, crop: :fill %>
+
 <%= link_to 'See all cocktails', cocktails_path %>
 <%= link_to 'Add an ingredient', new_cocktail_dose_path(@cocktail) %>
