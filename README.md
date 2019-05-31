@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+<% simple_form_for(@cocktail) do |c| %>
+  <%= c.input :name %>
+  <%= c.submit "add a cocktail", class: "btn btn-primary" %>
+<% end %>
